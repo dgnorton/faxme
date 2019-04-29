@@ -14,7 +14,7 @@ The purpose of `faxme` is to provide a way to receive faxes without a fax machin
  * Twilio fax number: $1/month
  * Twilio per minute: pennies for a 2 - 3 page fax
 
-`fixme` can be even more cost effective if used to handle multiple fax numbers.
+`faxme` can be even more cost effective if used to handle multiple fax numbers.
 
 ## install
 ```
@@ -26,7 +26,7 @@ go get github.com/dgnorton/faxme
 
 If setting up a DigitalOcean droplet, you'll also need to add a firewall and create a rule to forward the `faxme` port to the droplet.
 
-Once you've selected a server, copy the `faxme` binary to it. Run `fixme -h` to get a list of command line arguments. Most of the command line arguments can alternatively be read from a TOML file or environment variables.
+Once you've selected a server, copy the `faxme` binary to it. Run `faxme -h` to get a list of command line arguments. Most of the command line arguments can alternatively be read from a TOML file or environment variables.
 
 NOTES:
 * Running `faxme` without TLS enabled or without username and password set is considered unsafe and will require starting `faxme` with the `-unsafe` command line argument.
